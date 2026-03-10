@@ -1,0 +1,67 @@
+.metrics {
+    background-color: #f4f6f9;
+    padding: 3rem 8%;
+}
+
+.metrics__container {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    align-items: center;
+    gap: 0rem;
+    padding-right: 54px;
+    padding-left: 200px;
+
+}
+
+.metrics__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70px;
+    gap: 3rem 3rem;
+    /* padding-right: 10px; */
+}
+/* 
+.map {
+    padding-left: 10px;
+} */
+
+
+.metric {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.metric h2 {
+    font-size: 2rem;
+    font-weight: 450;
+    color: #1f4e8c;
+    margin: 0;
+}
+
+.metric p {
+    font-size: 0.9rem;
+    color: #7a869a;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.metrics__map img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* 
+img {
+    opacity: 0.5;
+} */
+
+.section-mapa {
+    background-color: #7a869a;
+}
