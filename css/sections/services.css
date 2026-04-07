@@ -1,6 +1,6 @@
 .services {
     padding: 50px 15% 30px;
-    background-color: #234f90;
+    background-color: rgb(8, 37, 79);
     position: relative;
     overflow: hidden;
     /* Para imagem vazada do layout*/
@@ -14,9 +14,9 @@
     height: 100%;
 }
 
-.services__container::after {
+/* .services__container::after {
     content: "";
-    background: url("../../assets/images/services/connection.svg") center / cover no-repeat;
+    background: url("../../assets/images/services/teste.png") center / cover no-repeat;
     width: 200px;
     height: 200px;
     opacity: 0.3;
@@ -24,6 +24,19 @@
     bottom: -45px;
     right: 0;
     transform: rotate(35deg);
+} */
+
+.services__container::after {
+    content: "";
+    background: url("../../assets/images/services/GLOBO.png") center / cover no-repeat;
+    width: 1016px;
+    height: 473px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: -189px;
+    right: -306px;
+    /* transform: rotate(-6deg); */
+    opacity: 0.1;
 }
 
 .services__main {
@@ -62,7 +75,7 @@
     width: 80px;
     text-align: center;
     font-size: 2rem;
-    background-color: #234f90;
+    background-color:  rgb(8,37,79);
 }
 
 /*  */
@@ -80,3 +93,4 @@
     font-style: italic;
     font-size: 0.8rem;
 }
+
