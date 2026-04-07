@@ -7,24 +7,16 @@
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     align-items: center;
-    gap: 0rem;
-    padding-right: 54px;
-    padding-left: 200px;
-
+    gap: 2rem;
+    padding: 0;
 }
 
 .metrics__info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 70px;
-    gap: 3rem 3rem;
-    /* padding-right: 10px; */
+    gap: 3rem;
+    width: 100%;
 }
-/* 
-.map {
-    padding-left: 10px;
-} */
-
 
 .metric {
     display: flex;
@@ -46,7 +38,11 @@
     margin: 0;
 }
 
-.metrics__map img {
+.metrics__map-container {
+    width: 100%;
+}
+
+.metrics__map-image {
     width: 100%;
     height: auto;
     display: block;
@@ -54,14 +50,4 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-
-}
-
-/* 
-img {
-    opacity: 0.5;
-} */
-
-.section-mapa {
-    background-color: #7a869a;
 }

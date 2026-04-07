@@ -11,15 +11,11 @@
 @import url("./sections/about.css");
 @import url("./sections/company.css");
 @import url("./sections/services.css");
-
+@import url("./sections/maps.css");
+@import url("./layout/footer.css");
 
 /* components */
 @import url("./components/buttons.css");
 
 /* media */
 @import url("./media.css");
-
-
-@import url("./sections/maps.css");
-@import url("./layout/footer.css");
-
